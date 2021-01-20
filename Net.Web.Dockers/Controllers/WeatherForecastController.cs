@@ -19,7 +19,8 @@ namespace Net.Web.Docker.Api.Controllers
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
+        {   
+            //依赖注入
             _logger = logger;
         }
 
