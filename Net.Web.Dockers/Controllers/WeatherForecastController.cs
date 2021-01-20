@@ -20,7 +20,7 @@ namespace Net.Web.Docker.Api.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {   
-            //依赖注入GitHub
+            //依赖注入GitHub  JosonJiang
             _logger = logger;
         }
 
